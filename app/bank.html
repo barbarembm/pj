@@ -29,7 +29,7 @@
                  <div class="conSingup">
                     <input type="button" value="Sing up" class="">
                     <div class="singup">
-                        <form onsubmit="return ";  name="sup">
+                        <form onsubmit="return validationEvent();";  name="sup">
                             <h2 style="color: white">Sing up</h2>
                             <input type="email" name="" id="e"  placeholder="Enter email..">
                             <input type="password" name="password" id="" placeholder="Enter password..">
@@ -46,7 +46,7 @@
                           
                             <input type="text" name="city" id="" placeholder="City..">
                             <input type="text" name="" id="myInput" placeholder="Phone nymber..">
-                            <input type="submit" onclick="checkf()" value="Sing up">
+                            <input type="submit"  value="Sing up">
                         </form>
                     </div>
                  </div>
@@ -55,11 +55,11 @@
                 <div class="conLogin">
                 <input type="button" value="Login" class="">
                     <div class="login">
-                        <form name="sup" method="post" action="#" onsubmit="return mail();">
+                        <form name="sup"  onsubmit="return mail();">
                             <h2 style="color: white">Log In</h2>
-                            <input type="text" id="username" placeholder="Username">
+                            <input type="email" id="username" placeholder="Enter email..">
                             <input type="password" id="pass" placeholder="Password"><br><br>
-                            <a href=""><input type="submit" value="Log In" ></a><br>
+                            <a href=""><input type="submit" value="Log In"  onclick="mail()"></a><br>
                            
                           
                             
@@ -306,7 +306,7 @@
 </div>
     </footer>
 </body>
-<script src="app.js">
+<script src="bank.js">
 
 </script>
 </html>
