@@ -6,7 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bank.css">
    
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {
+  display:none;
+  width: 100%;
+  height: 300px;
+}
+
+</style>
     <title>HSBC</title>
     <link rel="shortcut icon"  href="h02.png" type="image/jpg"/>
 </head>
@@ -16,21 +24,24 @@
         
            <div class="con">
               
-               <img src="h1.png" alt="logo" srcset="" >
+               <img src="h1.png" alt="logo" srcset=""  class="img1">
         
             <ul>
-                 <li><a href="http://">CUSTOMER SERVICE</a></li>
-                 <li><a href="http://">INVESTOR RELATIONS</a></li>
+                 <li><a href="http://">CURRENCIES</a></li>
+                 <li><a href="http://">INVESTORS</a></li>
                  <li><a href="http://">ABOUUT US</a></li>
                  <li><a href="http://">CAREERS</a></li>
                  </ul><br>
-                <input type="button" class="but" value="Branch & ATM Locations">
+                <div class="enimg"><img src="eng.jpg" alt="" class="img"><a href="bank.html" class="en"> En</a> </div>
+                <div class="enimg"><img src="geo.png" alt="" class="img"><a href="bank2.html" class="en">Geo</a> </div>
+                 
+                 
 
                  <div class="conSingup">
                     <input type="button" value="Sing up" class="">
                     <div class="singup">
                         <form onsubmit="return validationEvent();";  name="sup">
-                            <h2 style="color: white">Sing up</h2>
+                            <h2 style="color: white">Signup</h2>
                             <input type="email" name="" id="e"  placeholder="Enter email..">
                             <input type="password" name="password" id="" placeholder="Enter password..">
                             <input type="password" name="password2" id="" placeholder="Repeat password..">
@@ -45,7 +56,7 @@
                             <input type="text" name="coun" id="" placeholder="Country..">
                           
                             <input type="text" name="city" id="" placeholder="City..">
-                            <input type="text" name="" id="myInput" placeholder="Phone nymber..">
+                            <input type="text" name="" id="myInput" placeholder="Phone number..">
                             <input type="submit"  value="Sing up">
                         </form>
                     </div>
@@ -56,7 +67,7 @@
                 <input type="button" value="Login" class="">
                     <div class="login">
                         <form name="sup"  onsubmit="return mail();">
-                            <h2 style="color: white">Log In</h2>
+                            <h2 style="color: white">Login</h2>
                             <input type="email" id="username" placeholder="Enter email..">
                             <input type="password" id="pass" placeholder="Password"><br><br>
                             <a href=""><input type="submit" value="Log In"  onclick="mail()"></a><br>
@@ -78,39 +89,28 @@
         <input type="button" value="MAIN">
         <div class="content">
             <div class="header">
+
                 <div class="column">
-                   
                     <p style="font-size: 14px; font-weight: bold;">Checking</p>
                     <a href="">My Community Free Checking</a> 
                     <a href="">My Community Interest Checking</a>
-                    <a href="">My Community 50+ Checking</a> 
-                    <a href="">My Community Basic Checking</a> 
-                    <a href="">My Community Military Checking</a> 
-                    <a href="">Student Checking</a> 
+                    <a href="">My Community 50+ Checking</a>
                    
                 </div>
               <div class="column">
-                <p style="font-size: 14px; font-weight: bold;"> Savings</p >
+                <p style="font-size: 14px; font-weight: bold;"> Savings</p>
                     <a href="">My Community Savings</a>
                     <a href="">My Community Super Savings</a>
                     <a href="">Club Savings Accounts</a>
                     <a href="">Kids and Student Accounts</a>
-                    <a href="">PerfectHealth Savings Account</a>
-                    <a href="">Certificates of Deposit</a>
-            
+                      
               </div>
               <div class="column">
-                <p style="font-size: 14px; font-weight: bold;">Mortgages</p>
-               <a href="">Managing Your Mortgage Online</a> 
+                <p style="font-size: 14px; font-weight: bold;"> Mortgages</p >
+                <a href="">Managing Your Mortgage Online</a> 
                 <a href="">Help for Homeowners</a> 
                 <a href="">NYCB Online & Mobile</a> 
                 <a href="">Overdraft Shield</a> 
-                <a href="">Banking Services</a> 
-                <a href="">NYCB Elite</a> 
-                <a href="">NYCB $MART</a> 
-                
-
-
                 </div>
         
         
@@ -128,29 +128,19 @@
                     <a href="">Business Solution Checking</a>
                     <a href="">Business Solution Checking
                         <br>With Intereset</a>
-                    <a href="">Business Solution Analysis Checking</a>
-                    <a href="">Business Solution Analysis Checking
-                        <br>With Intereset</a>
                 </div>
               <div class="column">
                 <p style="font-size: 14px; font-weight: bold;">Business Money Market & Savings</p >
                 <a href="">Business Solutions Money Market Checking</a>
                 <a href="">Business Solutions Savings Account</a>
                 <a href="">Business Credit Cards</a>
-                <a href="">NYCB Online</a>
-                <a href="">NYCB Mobile</a>
             
               </div>
               <div class="column">
                 <p style="font-size: 14px; font-weight: bold;">Cash Management Solutions</p>
                 <a href="">Login to Cash Management</a>
                 <a href="">Business Services</a>
-                <a href="">Zero/Target Balance Accounts</a>
-                <a href="">Remote Deposit Capture</a>
-                <a href="">Account Reconciliation/Positive Pay</a>
-                <!-- <a href="">Escrow Management Services</a> -->
-                <!-- <a href="">Lockbox Services</a>
-                <a href="">Merchant Services</a> -->
+            
                 </div>
         
         
@@ -174,16 +164,11 @@
                     <a href="">Mutual Fund Basics </a>
                     <a href="">Annuity Basics </a>
                     <a href="">Retirement </a>
-                    <a href="">Retirement Planning: The Basics </a>
-                    <a href="">Understanding IRAs </a>
-                    <a href="">The Benefits of an IRA </a>
                 </div>
               <div class="column">
                 <p style="font-size: 14px; font-weight: bold;">Insurance</p >
                   
                    <a href=""> Life Insurance Basics</a>
-                   <a href=""> Life Insurance at Various Life Stages</a>
-                   <a href=""> Key Employee Life and Disability Insurance</a>
                    <a href=""> College Planning</a>
                    <a href=""> Best Ways to Save for College</a>
                    <a href=""> ABCs of 529 Plans</a>
@@ -227,7 +212,7 @@
           </div>
         </div>
        <div class="divofsearch">
-        <input type="search" name="" id="" placeholder="Search..."> 
+        <input type="search" name="" id="Search" placeholder="Search..."> 
     </div>
     </div>
 
@@ -235,7 +220,40 @@
     
     </nav>
     <div class="middle">
-            <img src="1.jpg" alt="middle" srcset="">
+       
+            <div class="slider">
+                <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="1.2.jpg">
+                    <img class="mySlides" src="1.jpg">
+                    <img class="mySlides" src="12.jpg">
+                    
+                  
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                  </div>
+                  
+                  <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+                  
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+                  
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                  }
+                  </script>
+            </div>
+            <!-- <img src="1.jpg" alt="middle" srcset=""> -->
+            <img src="12.jpg" alt="" class="foto">
 
 <!-- 
             <div class="middle0">
@@ -309,4 +327,6 @@
 <script src="bank.js">
 
 </script>
+
+
 </html>
